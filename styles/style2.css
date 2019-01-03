@@ -1,0 +1,26 @@
+div{
+    width: 200px;
+    height: 200px;
+    margin-left:100px;
+    margin-top: 100px;
+    position: relative;
+}
+
+.bl1{
+    z-index: -1;
+    background: red;
+}
+
+.bl2{
+    z-index: 3;
+    background: green;
+    margin-top: -100px;
+    margin-left: 200px;
+}
+
+.bl3{
+    z-index: -1;
+    background: blue;
+    margin-top: -100px;
+    margin-left: 300px;
+}
