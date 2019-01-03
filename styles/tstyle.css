@@ -1,0 +1,33 @@
+table{
+    width: 100%;
+    height: 600px;
+    border-spacing: 10px 30px;
+}
+
+td, tr{
+    margin: 50px
+}
+
+.firstRow{
+    background: orange;
+    width: 100%;
+    height: 5rem;
+}
+
+.secondRow{
+    background: greenyellow;
+    width: 100%;
+    height: 10rem;
+}
+
+.thirdRow{
+    background: rgb(133, 133, 238);
+    width: 100%;
+    height: 8rem;
+}
+
+.fourRow{
+    background: rgba(153, 149, 149, 0.486);
+    width: 100%;
+    height: 6rem;
+}
