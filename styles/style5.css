@@ -1,0 +1,148 @@
+
+body{
+    overflow-x: hidden;
+}
+
+#page{
+    width: 100%;
+}
+
+div{
+    position: absolute;
+}
+
+
+
+
+@media screen and (min-device-width: 1080px) {
+    
+
+    .bl1-1{
+        background-color: rgb(173, 20, 20);
+        width: 30rem;
+        height: 6rem;
+        margin: 10px;
+        top: 1rem;
+    }
+
+    .bl1-2{
+        background-color: rgb(236, 167, 39);
+        width: 48rem;
+        height: 6rem;
+        margin: 10px;
+        top: 1rem; 
+        left:34rem;
+    }
+    
+    
+    .bl2{
+        background: rgb(101, 155, 22);
+        top: 8rem;
+        width: 82rem;
+        height: 19rem;
+        margin: 10px;
+    }
+    
+
+    .bl3-1{
+        background: rgb(158, 129, 33);
+        width: 25rem;
+        height: 9rem;
+        margin: 10px;
+        top: 28rem;
+    }
+
+    .bl3-2{
+        background: rgb(133, 133, 238);
+        width: 25rem;
+        height: 9rem;
+        margin: 10px;
+        top: 28rem;
+        left: 29rem;
+    }
+
+    .bl3-3{
+        background: rgb(139, 17, 187);
+        width: 25rem;
+        height: 9rem;
+        margin: 10px;
+        top: 28rem;
+        left: 57rem;
+    }
+    
+  }
+
+  @media only screen and (min-device-width : 320px) and (max-device-width : 667px) and (orientation : portrait)  {
+    
+    .bl2{
+        background: rgb(101, 155, 22);
+        width: 13rem;
+        height: 4rem;
+        margin: 10px;
+    }
+    
+
+    .bl3-3{
+        background: rgb(165, 35, 148);
+        width: 13rem;
+        height: 4rem;
+        margin: 10px;
+        top: 5rem;
+    }
+
+    .bl1-1{
+        background: rgb(189, 70, 34);
+        width: 13rem;
+        height: 10rem;
+        margin: 10px;
+        top: 10rem;
+    }
+
+  }
+  
+
+  @media  only screen and (min-device-width : 768px) and (max-device-width : 1024px)  {
+    .bl1-1{
+        background-color: rgb(173, 20, 20);
+        top: 12rem;
+        width: 45rem;
+        height: 22rem;
+        margin: 10px;
+    }
+
+    .bl1-2{
+        background-color: rgb(236, 167, 39);
+        width: 17rem;
+        height: 8rem;
+        margin: 10px;
+        top: 1rem;
+    }
+    
+    
+    .bl2{
+        background: rgb(101, 155, 22);
+        top: 38rem;
+        width: 21rem;
+        height: 19rem;
+        margin: 10px;
+    }
+    
+
+    .bl3-2{
+        background: rgb(133, 133, 238);
+        width: 21rem;
+        height: 19rem;
+        margin: 10px;
+        top: 38rem;
+        left: 24rem;
+    }
+
+    .bl3-3{
+        background: rgb(139, 17, 187);
+        width: 25rem;
+        height: 8rem;
+        margin: 10px;
+        top: 1rem; 
+        left:20rem;
+    }
+  }
